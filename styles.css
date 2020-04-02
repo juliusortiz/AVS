@@ -72,7 +72,7 @@ form {
 }
 
 form .form-header {
-  background-color: #006666;
+  background-color: #008080;
   text-align: center;
   border-bottom: #ff9900 solid 0.25px;
   width: 100%;
@@ -156,7 +156,7 @@ input[type='checkbox']:checked {
 
 #submit-button {
   color: white;
-  background-color: #006666;
+  background-color: #008080;
   height: 60px;
   width: 70%;
   padding: 0px;
@@ -202,7 +202,7 @@ input[type='checkbox']:checked {
 .instructions {
   height: 5em;
   width: 41em;
-  background-color: #006666;
+  background-color: #008080;
   top: 118px;
   position: relative;
   border-radius: 10px;
@@ -234,7 +234,7 @@ input[type='checkbox']:checked {
 #proceed-button {
   position: relative;
   color: white;
-  background-color: #006666;
+  background-color: #008080;
   width: 10%;
   padding: 0px;
   margin-top: -10px;
@@ -340,7 +340,7 @@ input[type="radio"]:checked {
 #submit-vote {
   position: relative;
   color: white;
-  background-color: #006666;
+  background-color: #008080;
   width: 6%;
   padding: 0px;
   margin-top: -10px;
@@ -423,7 +423,7 @@ span {
   position: relative;
   padding: 5px 30px;
   right: 10em;
-  background-color: #006666;
+  background-color: #008080;
   color: #ffffff;
 }
 
@@ -432,10 +432,36 @@ span {
   z-index: -1;
 }
 
+/************************************************logout.html*****************************************************/
 
+.logout-banner {
+  font-family: LEMONMILK-Bold;
+  position: relative;
+  background-color: #008080;
+  top: 8rem;
+  width: 45rem;
+  left: 25%;
+  height: 300px;
+  border-radius: 50px;
+}
 
+.logout-banner h3 {
+  padding: 40px;
+  text-align: center;
+}
 
-
+.logout-button #logout-button {
+  position: relative;
+  left: 43%;
+  top: 16rem;
+  width: 100px;
+  padding-right: 150px;
+  padding-left: 85px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ff9900;
+  color: #ffffff;
+}
 
 
 
